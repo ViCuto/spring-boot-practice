@@ -10,7 +10,7 @@ This repository contains my personal workspace for learning **Spring Boot**.
 ## How to Run
 Every project uses the Maven Wrapper. To run any of the projects, navigate to its directory and execute:
 ```bash
-cd <project-folder>      # Example: cd demo
+cd <project-folder>
 ./mvnw spring-boot:run   # Linux/macOS
 .\mvnw spring-boot:run   # Windows
 ```
