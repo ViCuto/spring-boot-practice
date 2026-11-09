@@ -31,7 +31,7 @@ public class SwimmingCoach implements  Coach {
 
     // init method (custom code during bean initialization)
     @PostConstruct
-    public void doStartupStuff() {
+    private void doStartupStuff() {
         IO.println("Preparating some stuff for " + getClass().getSimpleName());
     }
 
@@ -42,7 +42,7 @@ public class SwimmingCoach implements  Coach {
     // The "client code" (meaning the class that injected and uses this bean,
     // for example our CoachController) must clean up prototype-scoped objects manually.
     @PreDestroy
-    public void doCleanupStuff() {
+    private void doCleanupStuff() {
         IO.println("Cleaning some stuff for " + getClass().getSimpleName());
     }
 
