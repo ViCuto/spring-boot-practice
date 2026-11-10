@@ -1,4 +1,4 @@
-package com.vicuto.__restcrud;
+package com.vicuto.restcrud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
